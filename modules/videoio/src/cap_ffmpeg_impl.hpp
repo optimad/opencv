@@ -1590,7 +1590,7 @@ static AVStream *icv_add_video_stream_FFMPEG(AVFormatContext *oc,
       c->qmin = -1;
       c->bit_rate = 0;
       if (c->priv_data)
-          av_opt_set(c->priv_data,"crf","23", 0);
+          av_opt_set(c->priv_data,"crf","10", 0);
     }
 #endif
 
